@@ -1,6 +1,6 @@
 # 来源与许可
 
-[返回首页](../README.md) · [21.02 / 5.4](21.02-5.4.md) · [24.10 / 6.6](24.10-6.6.md) · [25.12 / 6.12](25.12-6.12.md)
+[返回首页](../README.md) · [25.12 / 6.12](25.12-6.12.md) · [24.10 / 6.6](24.10-6.6.md) · [21.02 / 5.4](21.02-5.4.md)
 
 固件基于 OpenWrt / ImmortalWrt 和多个上游项目，各组件原有的版权声明与许可继续适用。
 
@@ -17,9 +17,9 @@
 | 部分 | 项目与说明 |
 |---|---|
 | 系统基础 | [OpenWrt](https://openwrt.org/) / [ImmortalWrt](https://github.com/immortalwrt/immortalwrt) 及其上游组件 |
-| 21.02 / 5.4 | 基于 [hanwckf/immortalwrt-mt798x](https://github.com/hanwckf/immortalwrt-mt798x)，无线、管理和升级功能的完善见[修复与改进](21.02-5.4.md#fixes) |
-| 24.10 / 6.6 | 基于 [padavanonly/immortalwrt-mt798x-6.6](https://github.com/padavanonly/immortalwrt-mt798x-6.6)，普通 110m、无线及管理功能的完善见[修复与改进](24.10-6.6.md#fixes) |
-| 25.12 / 6.12 | 基于 [chasey-dev/immortalwrt-mt798x-rebase](https://github.com/chasey-dev/immortalwrt-mt798x-rebase) 的 25.12 系列，RB06 普通 110m、厂商无线与管理功能的适配见[修复与改进](25.12-6.12.md#fixes) |
+| 25.12 / 6.12 | 基于 [chasey-dev/immortalwrt-mt798x-rebase](https://github.com/chasey-dev/immortalwrt-mt798x-rebase) 的 25.12 系列 |
+| 24.10 / 6.6 | 基于 [padavanonly/immortalwrt-mt798x-6.6](https://github.com/padavanonly/immortalwrt-mt798x-6.6) |
+| 21.02 / 5.4 | 基于 [hanwckf/immortalwrt-mt798x](https://github.com/hanwckf/immortalwrt-mt798x) |
 | 24.10 的 Wi-Fi 7.6.7.3 配套 | 使用 [hanwckf 的厂商驱动配套](https://github.com/hanwckf/immortalwrt-mt798x)，参考 [chasey-dev 的内核兼容适配](https://github.com/chasey-dev/immortalwrt-mt798x-rebase)；具体发行是否采用此配套以发行说明为准 |
 | LuCI 与软件包 | [ImmortalWrt LuCI](https://github.com/immortalwrt/luci)、[ImmortalWrt packages](https://github.com/immortalwrt/packages)、[OpenWrt routing](https://github.com/openwrt/routing)、[OpenWrt telephony](https://github.com/openwrt/telephony) 等 |
 | Argon 主题 | [jerrykuku/luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon) 及 ImmortalWrt 中的配套版本 |
@@ -28,7 +28,7 @@
 
 固件保留 hanwckf 无线组件的版权声明，以及 padavanonly、chasey-dev 和其他上游项目的来源与许可。设备适配和管理功能的完善不改变原有组件的版权归属。
 
-各系列的修复内容与使用效果见 [21.02](21.02-5.4.md#fixes)、[24.10](24.10-6.6.md#fixes) 和 [25.12](25.12-6.12.md#fixes) 的系统说明。
+各系列的修复内容与使用效果见 [25.12](25.12-6.12.md#fixes)、[24.10](24.10-6.6.md#fixes) 和 [21.02](21.02-5.4.md#fixes) 的系统说明。
 
 ## 许可
 

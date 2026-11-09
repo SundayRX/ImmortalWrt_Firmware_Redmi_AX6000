@@ -20,13 +20,13 @@
 | 25.12 / 6.12 | 基于 [chasey-dev/immortalwrt-mt798x-rebase](https://github.com/chasey-dev/immortalwrt-mt798x-rebase) 的 25.12 系列 |
 | 24.10 / 6.6 | 基于 [padavanonly/immortalwrt-mt798x-6.6](https://github.com/padavanonly/immortalwrt-mt798x-6.6) |
 | 21.02 / 5.4 | 基于 [hanwckf/immortalwrt-mt798x](https://github.com/hanwckf/immortalwrt-mt798x) |
-| 24.10 的 Wi-Fi 7.6.7.3 配套 | 使用 [hanwckf 的厂商驱动配套](https://github.com/hanwckf/immortalwrt-mt798x)，参考 [chasey-dev 的内核兼容适配](https://github.com/chasey-dev/immortalwrt-mt798x-rebase)；具体发行是否采用此配套以发行说明为准 |
+| 24.10 的 Wi-Fi 7.6.7.3 配套 | 使用 [hanwckf 的厂商驱动配套](https://github.com/hanwckf/immortalwrt-mt798x)，参考 [chasey-dev 的内核兼容适配](https://github.com/chasey-dev/immortalwrt-mt798x-rebase) |
 | LuCI 与软件包 | [ImmortalWrt LuCI](https://github.com/immortalwrt/luci)、[ImmortalWrt packages](https://github.com/immortalwrt/packages)、[OpenWrt routing](https://github.com/openwrt/routing)、[OpenWrt telephony](https://github.com/openwrt/telephony) 等 |
 | Argon 主题 | [jerrykuku/luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon) 及 ImmortalWrt 中的配套版本 |
 | OpenClash | [vernesong/OpenClash](https://github.com/vernesong/OpenClash)，代理核心另行获取并适用其自身许可 |
 | 配套引导 | [hanwckf/bl-mt798x](https://github.com/hanwckf/bl-mt798x)，基于 MTK ATF / U-Boot。发行包的 `bootloader/` 提供 RB06 普通 110m FIP；24.10 / 25.12 配套来自 [20241115 发行版](https://github.com/hanwckf/bl-mt798x/releases/tag/20241115)。使用方法见[安装指南](flashing.md) |
 
-固件保留 hanwckf 无线组件的版权声明，以及 padavanonly、chasey-dev 和其他上游项目的来源与许可。设备适配和管理功能的完善不改变原有组件的版权归属。
+固件保留 hanwckf 无线组件的版权声明，以及 padavanonly、chasey-dev 和其他上游项目的来源与许可。
 
 各系列的修复内容与使用效果见 [25.12](25.12-6.12.md#fixes)、[24.10](24.10-6.6.md#fixes) 和 [21.02](21.02-5.4.md#fixes) 的系统说明。
 

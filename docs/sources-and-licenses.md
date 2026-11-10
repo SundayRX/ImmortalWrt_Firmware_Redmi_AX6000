@@ -1,8 +1,10 @@
 # 来源与许可
 
-[返回首页](../README.md) · [25.12 / 6.12](25.12-6.12.md) · [24.10 / 6.6](24.10-6.6.md) · [21.02 / 5.4](21.02-5.4.md)
+[返回首页](../README.md) · [25.12 / 6.12](systems/25.12-6.12.md) · [24.10 / 6.6](systems/24.10-6.6.md) · [21.02 / 5.4](systems/21.02-5.4.md)
 
-固件基于 OpenWrt / ImmortalWrt 和多个上游项目，各组件原有的版权声明与许可继续适用。
+本固件基于 OpenWrt / ImmortalWrt，采用 MediaTek 无线与硬件加速组件，并整合 hanwckf、padavanonly、chasey-dev 等项目的适配成果。25.12 系列的初始主源码取自 [chasey-dev/immortalwrt-mt798x-rebase](https://github.com/chasey-dev/immortalwrt-mt798x-rebase)，由本项目继续定制与维护。
+
+各组件原有的版权声明与许可继续适用。
 
 ## 查看版本和组件
 
@@ -17,7 +19,7 @@
 | 部分 | 项目与说明 |
 |---|---|
 | 系统基础 | [OpenWrt](https://openwrt.org/) / [ImmortalWrt](https://github.com/immortalwrt/immortalwrt) 及其上游组件 |
-| 25.12 / 6.12 | 基于 [chasey-dev/immortalwrt-mt798x-rebase](https://github.com/chasey-dev/immortalwrt-mt798x-rebase) 的 25.12 系列 |
+| 25.12 / 6.12 | 初始主源码取自 [chasey-dev/immortalwrt-mt798x-rebase](https://github.com/chasey-dev/immortalwrt-mt798x-rebase) 的 25.12 系列，由本项目继续定制与维护 |
 | 24.10 / 6.6 | 基于 [padavanonly/immortalwrt-mt798x-6.6](https://github.com/padavanonly/immortalwrt-mt798x-6.6) |
 | 21.02 / 5.4 | 基于 [hanwckf/immortalwrt-mt798x](https://github.com/hanwckf/immortalwrt-mt798x) |
 | 24.10 的 Wi-Fi 7.6.7.3 配套 | 使用 [hanwckf 的厂商驱动配套](https://github.com/hanwckf/immortalwrt-mt798x)，参考 [chasey-dev 的内核兼容适配](https://github.com/chasey-dev/immortalwrt-mt798x-rebase) |
@@ -28,7 +30,7 @@
 
 固件保留 hanwckf 无线组件的版权声明，以及 padavanonly、chasey-dev 和其他上游项目的来源与许可。
 
-各系列的修复内容与使用效果见 [25.12](25.12-6.12.md#fixes)、[24.10](24.10-6.6.md#fixes) 和 [21.02](21.02-5.4.md#fixes) 的系统说明。
+各系列的修复内容与使用效果见 [25.12](systems/25.12-6.12.md#fixes)、[24.10](systems/24.10-6.6.md#fixes) 和 [21.02](systems/21.02-5.4.md#fixes) 的系统说明。
 
 ## 许可
 

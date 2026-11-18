@@ -4,7 +4,7 @@
 
 **仅适用于 RB06 普通 110m。** 小米 AX6000 / RA72、原厂分区和其他布局不能直接刷入。第一次安装请先看[设备与布局要求](docs/flashing.md#layout-comparison)。
 
-[选择版本](#选择版本) · [下载固件](#下载) · [安装与升级](docs/flashing.md) · [安装插件](docs/flashing.md#package-install) · [功能指南](docs/features/README.md) · [LAN 与固定 IP](docs/features/lan.md) · [DNS 设置](docs/features/dns.md)
+[选择版本](#选择版本) · [下载固件](#下载) · [安装与升级](docs/flashing.md) · [安装插件](docs/flashing.md#package-install) · [功能指南](docs/features/README.md) · [LAN 与固定 IP](docs/features/lan.md) · [DNS 设置](docs/features/dns.md) · [MAC 地址](docs/features/mac-address.md)
 
 ## 选择版本
 
@@ -25,12 +25,12 @@
 ### 25.12 / Linux 6.12
 
 <!-- AX6000:25.12-6.12:START -->
-- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-25.12-Kernel-6.12-41187c9-20261109T151844Z) · 编译时间：2026-11-09 15:18:44 UTC
+- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-25.12-Kernel-6.12-82e8bbf-20261118T123854Z) · 编译时间：2026-11-18 12:38:54 UTC
 - [全部版本与历史固件](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2225.12-6.12%22)
 
 | 项目 | 此固件版本 |
 | --- | --- |
-| 系统 | ImmortalWrt 25.12-SNAPSHOT `r0-41187c9` |
+| 系统 | ImmortalWrt 25.12-SNAPSHOT `r0-82e8bbf` |
 | 内核 | Linux `6.12.112` |
 | 布局 | 普通 110m（`immortalwrt-110m`） |
 | Wi-Fi 驱动 | MediaTek `mt_wifi` `7.6.7.3` |
@@ -100,6 +100,7 @@ ZIP 名称包含系统、内核、设备、布局和编译时间，末尾 `Z` �
 | 无线连接 | 关联兼容、密钥更新、无线配置保存及双频状态显示 |
 | 管理页面 | 改善概览加载、配置保存、静态租约管理和手机布局；25.12 增加日志倒序与软件包安装结果提示 |
 | 网络与服务 | 完善加速设置生效、限速与访问控制配合，以及服务异常后的恢复；25.12 提供加密 DNS（DoH）设置和当前上游列表，可选择是否允许故障时回退到普通 DNS |
+| MAC 地址管理（25.12） | 集中设置 WAN、LAN 与双频 Wi-Fi 的地址，支持原厂恢复、按厂商生成和手动填写，核对后保存并重启；[适用版本与设置方法](docs/features/mac-address.md) |
 | 升级与恢复 | 完善备份与写入失败提示，提供跨系列配置保护、安装与恢复镜像；25.12 减少未改动的内置 OpenClash 数据库重复备份 |
 
 查看完整清单：[25.12](docs/systems/25.12-6.12.md#fixes) · [24.10](docs/systems/24.10-6.6.md#fixes) · [21.02](docs/systems/21.02-5.4.md#fixes)。
@@ -173,4 +174,4 @@ ZIP 名称包含系统、内核、设备、布局和编译时间，末尾 `Z` �
 
 遇到问题可提交 [Issue](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/issues)，附完整 Release Tag 或固件版本、升级方式、是否保留配置，以及复现步骤。截图和日志请先去除密码、订阅地址、令牌等私密信息。
 
-<!-- AX6000:DOCUMENTS:{"build":{"commit":"0c4bd82c28dd1e99d469571527490180db793f42","run_attempt":"1","run_id":"42756680640"},"schema":1,"templates_sha256":"8d642a4fb680e837fc86c143744458028e735facaad79291412e6dd50c042fe9"} -->
+<!-- AX6000:DOCUMENTS:{"build":{"commit":"82e8bbff879fd1a8d21a18bd63fd5d40acc45ab4","run_attempt":"1","run_id":"44304529237"},"schema":1,"templates_sha256":"22f5cc309435adfe48eaf5bbd03d7c33841133757fe32c9fd201ebb8e8bcf9ae"} -->
